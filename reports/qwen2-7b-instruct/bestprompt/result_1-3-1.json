@@ -1,0 +1,35 @@
+{
+    "accuracy": 0.8,
+    "result": [
+        {
+            "question": "On the table, you see the following objects arranged in a row: a gold pencil, a red jug, a grey bracelet, and a mauve dog leash. What is the color of the object directly to the left of the bracelet?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(A)",
+            "model_response": "To find the color of the object directly to the left of the bracelet, let's list the objects in order:\n\n1. Gold pencil\n2. Red jug\n3. Grey bracelet\n4. Mauve dog leash\n\nThe object directly to the left of the grey bracelet is the red jug.\n\nThe answer is: (A).",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, there is one black mug, three black puzzles, one pink keychain, three mauve keychains, three pink puzzles, two black dog leashes, one black keychain, three mauve mugs, and one mauve puzzle. If I remove all the dog leashes from the table, how many mauve things remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(H)",
+            "model_response": "To find out how many mauve items remain on the table after removing all the dog leashes, let's follow these steps:\n\n1. Identify the mauve items initially present:\n   - Three mauve keychains\n   - Three mauve mugs\n   - One mauve puzzle\n\n2. Determine the total number of mauve items before removing any:\n   - 3 (mauve keychains) + 3 (mauve mugs) + 1 (mauve puzzle) = 7 mauve items\n\n3. Remove the dog leashes since they are not mauve:\n   - The removal of dog leashes does not affect the count of mauve items.\n\nTherefore, after removing all the dog leashes, the number of mauve items remaining on the table is 7.\n\nThe answer is: (G).",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is a fuchsia sheet of paper, a magenta pencil, a teal pair of sunglasses, a black keychain, and a burgundy fidget spinner. What color is the keychain?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(O)",
+            "model_response": "The answer is: (O).",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, I see three teal bracelets and two grey dog leashes. If I remove all the dog leashes from the table, how many teal items remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(D)",
+            "model_response": "The answer is: (D).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see the following items arranged in a row: a fuchsia sheet of paper, a mauve textbook, and an orange cup. What is the color of the item directly to the left of the cup?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(I)",
+            "model_response": "To find the color of the item directly to the left of the orange cup, let's analyze the given options:\n\n- A row of items is described: fuchsia sheet of paper, mauve textbook, and an orange cup.\n- We start from the left and move towards the right.\n- The first item is a fuchsia sheet of paper.\n- The second item is a mauve textbook.\n- The third item is an orange cup.\n\nGiven this sequence, the item directly to the left of the orange cup is the mauve textbook.\n\nTherefore, the correct answer is:\n\nThe answer is: (I) mauve.",
+            "is_correct": true
+        }
+    ]
+}

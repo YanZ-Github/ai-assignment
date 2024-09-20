@@ -1,0 +1,185 @@
+{
+    "accuracy": 0.62,
+    "result": [
+        {
+            "question": "On the table, you see the following objects arranged in a row: a gold pencil, a red jug, a grey bracelet, and a mauve dog leash. What is the color of the object directly to the left of the bracelet?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(A)",
+            "model_response": "To answer this question, let's consider the arrangement of the objects provided:\n\n1. Gold pencil\n2. Red jug\n3. Grey bracelet\n4. Mauve dog leash\n\nThe question asks for the color of the object directly to the left of the bracelet. Since the bracelet is the third object in the sequence, the object directly to its left would be the second object in the sequence.\n\nThe answer is: (B) red.",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is one black mug, three black puzzles, one pink keychain, three mauve keychains, three pink puzzles, two black dog leashes, one black keychain, three mauve mugs, and one mauve puzzle. If I remove all the dog leashes from the table, how many mauve things remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(H)",
+            "model_response": "To find out how many mauve items remain on the table after removing all the dog leashes, let's analyze the given options:\n\n- Three mauve keychains were initially present.\n- Three mauve mugs were also present.\n\nWhen you remove all the dog leashes, none of the listed mauve items would be affected because they are not related to the dog leashes. Thus, both the mauve keychains and the mauve mugs remain unchanged.\n\nTherefore, the total number of mauve items remaining on the table is \\(3 + 3 = 6\\).\n\nThe answer is: (G) six.",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is a fuchsia sheet of paper, a magenta pencil, a teal pair of sunglasses, a black keychain, and a burgundy fidget spinner. What color is the keychain?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(O)",
+            "model_response": "The answer is: (O).",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, I see three teal bracelets and two grey dog leashes. If I remove all the dog leashes from the table, how many teal items remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(D)",
+            "model_response": "The answer is: (D).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see the following items arranged in a row: a fuchsia sheet of paper, a mauve textbook, and an orange cup. What is the color of the item directly to the left of the cup?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(I)",
+            "model_response": "To find the color of the item directly to the left of the cup, let's arrange the items as described:\n\n1. A fuchsia sheet of paper.\n2. A mauve textbook.\n3. An orange cup.\n\nThe item directly to the left of the cup is the mauve textbook.\n\nThe answer is: (I).",
+            "is_correct": true
+        },
+        {
+            "question": "On the floor, you see one yellow plate, three turquoise plates, three turquoise textbooks, two yellow textbooks, one burgundy plate, and three burgundy textbooks. If I remove all the plates from the floor, how many yellow items remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(C)",
+            "model_response": "To solve this problem, let's break it down step by step:\n\n1. **Identify Yellow Items**: From the given information, there is one yellow plate and two yellow textbooks.\n2. **Remove Plates**: If we remove all the plates from the floor, we are only considering the textbooks.\n3. **Count Remaining Yellow Textbooks**: After removing the plates, we have two yellow textbooks left.\n\nTherefore, the number of yellow items that remain on the floor after removing all the plates is two.\n\nThe answer is: (C) two.",
+            "is_correct": true
+        },
+        {
+            "question": "On the nightstand, you see a magenta notebook, a grey keychain, a black pencil, a gold pen, a mauve booklet, and a blue sheet of paper. What color is the booklet?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(I)",
+            "model_response": "To determine the color of the booklet, let's review the options provided:\n\n- A magenta notebook\n- A grey keychain\n- A black pencil\n- A gold pen\n- A mauve booklet\n- A blue sheet of paper\n\nAmong these, the color 'mauve' matches the description given for the booklet.\n\nThe answer is: (I).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see several things arranged in a row: a brown scrunchiephone charger, a mauve keychain, a turquoise pencil, and an orange mug. What is the color of the thing furthest from the scrunchiephone charger?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(B)",
+            "model_response": "To find the color of the thing furthest from the scrunchiephone charger, let's list the positions relative to the scrunchiephone charger:\n\n- Brown scrunchiephone charger: This is our reference point.\n- Mauve keychain: Directly to the right of the scrunchiephone charger.\n- Turquoise pencil: Directly to the left of the scrunchiephone charger.\n- Orange mug: Directly to the right of the turquoise pencil, making it furthest from the scrunchiephone charger.\n\nSo, the color of the thing furthest from the scrunchiephone charger is orange.\n\nThe answer is: (B).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see a set of objects arranged in a row: a grey pair of sunglasses, a mauve teddy bear, and an orange notebook. How many non-brown objects do you see to the right of the mauve object?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+            "ground_truth": "(B)",
+            "model_response": "To solve this, let's break it down:\n\n1. We start with a grey pair of sunglasses.\n2. Next is a mauve teddy bear.\n3. Finally, there's an orange notebook.\n\nWe're asked to count the number of non-brown objects to the right of the mauve teddy bear.\n\n- To the right of the mauve teddy bear, we have the orange notebook.\n\nSo, there is **one** non-brown object to the right of the mauve object.\n\nThe answer is: (B) one.",
+            "is_correct": true
+        },
+        {
+            "question": "On the nightstand, you see several things arranged in a row: a teal bracelet, a turquoise stress ball, a burgundy textbook, a black puzzle, a pink jug, and a green necklace. What is the color of the thing directly to the left of the textbook?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(K)",
+            "model_response": "To find the color of the thing directly to the left of the textbook, let's look at the arrangement:\n\n- A teal bracelet is first.\n- Then comes the turquoise stress ball.\n- Next is the burgundy textbook.\n- Following that is the black puzzle.\n- After the puzzle is the pink jug.\n- Finally, there is the green necklace.\n\nSo, the thing directly to the left of the textbook is the turquoise stress ball.\n\nThe answer is: (K).",
+            "is_correct": true
+        },
+        {
+            "question": "On the nightstand, you see a brown mug, a green scrunchiephone charger, and a yellow teddy bear. How many items are neither purple nor black?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+            "ground_truth": "(D)",
+            "model_response": "To solve this, let's list out the items mentioned:\n\n- Brown mug\n- Green scrunchiephone charger\n- Yellow teddy bear\n\nWe are asked to count how many items are neither purple nor black.\n\nLooking at the options provided, we can see that:\n\n- The brown mug is not purple or black.\n- The green scrunchiephone charger is not purple or black.\n- The yellow teddy bear is not purple or black.\n\nSince there are no items that are specifically purple or black mentioned, all three items (brown mug, green scrunchiephone charger, and yellow teddy bear) fit the criteria of being neither purple nor black.\n\nTherefore, the correct answer is:\n\n(C) two",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, you see a blue booklet and a purple paperclip. How many things are neither blue nor black?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+            "ground_truth": "(B)",
+            "model_response": "To determine how many things are neither blue nor black on the table, let's break down the information:\n\n1. There is a blue booklet.\n2. There is a purple paperclip.\n\nFrom this, we can see that there are two items on the table: one blue and one purple. \n\nNow, considering the options:\n- The blue booklet is blue, so it's not counted as \"neither blue nor black.\"\n- The purple paperclip is purple, so it's also not counted as \"neither blue nor black.\"\n\nGiven these details, there are no items that are both \"blue\" and \"neither blue nor black,\" nor are there any items that are \"black\" since nothing described is black. Therefore, the items that are \"neither blue nor black\" are just the ones that aren't specifically blue or black, which in this case, are both items on the table since none of them are black.\n\nThe correct answer is:\nThe answer is: (C) two.",
+            "is_correct": false
+        },
+        {
+            "question": "On the nightstand, you see a bunch of items arranged in a row: a silver crayon, a yellow cat toy, and a pink sheet of paper. What is the color of the item furthest from the sheet of paper?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(M)",
+            "model_response": "The answer is: (C).",
+            "is_correct": false
+        },
+        {
+            "question": "On the floor, you see a bunch of objects arranged in a row: a fuchsia jug, a black teddy bear, a blue envelope, a silver paperclip, a teal pencil, and a yellow keychain. What is the color of the object furthest from the silver object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(H)",
+            "model_response": "To find the color of the object furthest from the silver paperclip, let's first identify its position. The arrangement is as follows:\n\n1. Fuchsia jug\n2. Black teddy bear\n3. Blue envelope\n4. Silver paperclip\n5. Teal pencil\n6. Yellow keychain\n\nThe silver paperclip is at position 4. To find the object furthest from it, we look at both ends of the sequence:\n\n- The object farthest to the left of the silver paperclip is the fuchsia jug (position 1).\n- The object farthest to the right of the silver paperclip is the yellow keychain (position 6).\n\nSince we're asked for the color, and given that the question specifies \"furthest from the silver object,\" we can deduce that there might be a misinterpretation in the question's phrasing, as both the fuchsia jug and the yellow keychain are equidistant from the silver paperclip but in opposite directions. However, based on the options provided and the context implied, the correct interpretation likely seeks the color of the object that is conceptually furthest away, which would be either the fuchsia jug or the yellow keychain.\n\nGiven the options and the typical understanding of spatial relationships, the answer is intended to highlight a color rather than a specific object. Since the question seems to imply a direct comparison with \"furthest\" in a linear arrangement, the answer should reflect the color that is presented as an option among the choices given.\n\nThe answer is: (H) fuchsia",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, you see two burgundy mugs, one burgundy keychain, two gold keychains, two burgundy notebooks, one gold pencil, and one gold notebook. If I remove all the gold objects from the table, how many notebooks remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(C)",
+            "model_response": "To find out how many notebooks remain on the table after removing all the gold objects, let's break down the process:\n\n1. **Identify the total number of notebooks initially**: There are two gold notebooks and one burgundy notebook, making a total of three notebooks.\n2. **Identify the gold objects to be removed**: These include two gold keychains and one gold pencil.\n3. **Remove the gold objects**: Since there are no other objects removed that are not gold, removing the gold objects does not affect the count of notebooks.\n4. **Count the remaining notebooks**: After removing the gold objects, there remains one burgundy notebook and two gold notebooks (which were originally counted but are now removed as they are gold).\n\nTherefore, the number of notebooks that remain on the table is **two**.\n\nThe answer is: (C).",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, you see one blue envelope, one blue plate, three red necklaces, two red plates, three silver plates, three blue necklaces, one gold plate, and three silver necklaces. If I remove all the plates from the table, how many silver objects remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(D)",
+            "model_response": "To find out how many silver objects remain on the table after removing all the plates, let's break down the information:\n\n- Silver plates: 3\n- Silver necklaces: 3\n\nAfter removing all the plates (which are 2 red plates + 3 silver plates = 5 plates in total), we are left with:\n\n- No change to the silver necklaces since they are not being removed.\n\nTherefore, the total number of silver objects remaining on the table is the sum of the remaining silver plates and the silver necklaces, which is 3 (silver necklaces) + 0 (remaining silver plates) = 3.\n\nThe answer is: (D).",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, you see a set of items arranged in a row: a red crayon, a yellow paperclip, a magenta necklace, a grey textbook, and a silver cat toy. What is the color of the left-most item?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(A)",
+            "model_response": "The answer is: (A).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see the following things arranged in a row: a blue pen, a burgundy notebook, and a pink stress ball. How many non-brown things do you see to the left of the burgundy thing?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+            "ground_truth": "(B)",
+            "model_response": "To find out how many non-brown things you see to the left of the burgundy thing, let's break down the steps:\n\n1. Identify the items that are not brown.\n2. Count those items that are to the left of the burgundy thing.\n\nGiven:\n- A blue pen is to the left of the burgundy notebook.\n- A burgundy notebook is the middle item.\n- A pink stress ball is to the right of the burgundy notebook.\n\nFrom this setup:\n- The blue pen is the only non-brown item to the left of the burgundy notebook.\n\nTherefore, the answer is: (B) one.",
+            "is_correct": false
+        },
+        {
+            "question": "On the nightstand, you see a set of things arranged in a row: a pink pencil, a teal bracelet, a burgundy necklace, a fuchsia cup, a turquoise pair of sunglasses, and a gold keychain. How many non-black things do you see to the left of the turquoise thing?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+            "ground_truth": "(E)",
+            "model_response": "To solve this, let's list the items in order as they are described:\n\n1. Pink pencil\n2. Teal bracelet\n3. Burgundy necklace\n4. Fuchsia cup\n5. Turquoise pair of sunglasses\n6. Gold keychain\n\nNow, we need to count how many non-black things are to the left of the turquoise thing (which is the fifth item).\n\n- To the left of the turquoise pair of sunglasses are the pink pencil, teal bracelet, and burgundy necklace, making a total of 3 non-black things.\n\nTherefore, the correct answer is:\n\n(D) three",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, you see a bunch of items arranged in a row: a brown cat toy, a turquoise puzzle, a green envelope, a purple sheet of paper, a yellow necklace, and a mauve bracelet. What is the color of the item furthest from the purple item?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(F)",
+            "model_response": "To find the color of the item furthest from the purple item, let's first identify the positions of the items relative to the purple sheet of paper:\n\n- Brown cat toy: Not next to purple\n- Turquoise puzzle: Not next to purple\n- Green envelope: Not next to purple\n- Purple sheet of paper: This is our reference point.\n- Yellow necklace: Furthest from the purple sheet of paper since it's at the other end of the sequence.\n- Mauve bracelet: Not next to purple\n\nTherefore, the item furthest from the purple sheet of paper is the yellow necklace.\n\nThe answer is: (C) yellow.",
+            "is_correct": false
+        },
+        {
+            "question": "On the desk, you see a set of objects arranged in a row: a pink teddy bear, a turquoise textbook, a gold pencil, a grey envelope, and a burgundy sheet of paper. What is the color of the object furthest from the sheet of paper?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(R)",
+            "model_response": "To find the color of the object furthest from the sheet of paper, let's list the objects in order based on their positions relative to the sheet of paper:\n\n- Pink teddy bear\n- Turquoise textbook\n- Gold pencil\n- Grey envelope\n- Burgundy sheet of paper\n\nThe furthest object from the sheet of paper is the one at the end of this sequence, which is the Pink teddy bear.\n\nThe answer is: (A).",
+            "is_correct": false
+        },
+        {
+            "question": "On the floor, I see three silver pencils, one teal pencil, one turquoise mug, two yellow pencils, three teal bracelets, two silver mugs, one turquoise jug, three turquoise pencils, and two turquoise bracelets. If I remove all the silver things from the floor, how many mugs remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(B)",
+            "model_response": "To solve this problem, let's identify the silver items and the mugs present:\n\n- Silver items: three silver pencils, two silver mugs\n- Mugs: one teal pencil, one turquoise mug, two yellow pencils\n\nWhen you remove all the silver items (three silver pencils and two silver mugs) from the floor, the mugs that were not silver remain. This means we are left with:\n\n- The one teal pencil (which is not a mug)\n- The one turquoise mug (remains as it was not silver)\n- The two yellow pencils (not mugs)\n\nSo, the number of mugs that remain on the floor is one.\n\nThe answer is: (B).",
+            "is_correct": true
+        },
+        {
+            "question": "On the floor, you see a bunch of things arranged in a row: a red keychain, a blue pencil, and a purple plate. What is the color of the right-most thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(Q)",
+            "model_response": "The answer is: (E).",
+            "is_correct": false
+        },
+        {
+            "question": "On the desk, you see a set of items arranged in a row: a black paperclip, a gold keychain, and a silver necklace. What is the color of the item furthest from the paperclip?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(M)",
+            "model_response": "To find the color of the item furthest from the paperclip, let's visualize the arrangement:\n\n1. **Identify the positions**: We have three items arranged in a row. The paperclip is at one end, and we have a gold keychain and a silver necklace in between or beyond.\n\n2. **Determine distances**:\n   - The black paperclip has two items next to it (gold keychain and silver necklace), so any item not adjacent to it would be considered further away.\n   - The gold keychain and the silver necklace are both closer to the paperclip than any other item mentioned in the options.\n\n3. **Evaluate options**:\n   - **(A) red**, **(B) orange**, **(C) yellow**, **(D) green**, **(E) blue**, **(F) brown**, **(G) magenta**, **(H) fuchsia**, **(I) mauve**, **(J) teal**, **(K) turquoise**, **(L) burgundy**, **(N) gold**, and **(O) black** are all potential colors but do not appear as items in the list provided.\n   - **(P) grey** and **(Q) purple** are not among the options provided for the items.\n   - **(R) pink** is also not listed among the items.\n\nGiven the options provided and the context, the question seems to focus on the items explicitly mentioned: a black paperclip, a gold keychain, and a silver necklace. Since there are no items explicitly described with the colors **(A) red**, **(B) orange**, **(C) yellow**, **(D) green**, **(E) blue**, **(F) brown**, **(G) magenta**, **(H) fuchsia**, **(I) mauve**, **(J) teal**, **(K) turquoise**, **(L) burg",
+            "is_correct": false
+        },
+        {
+            "question": "On the floor, you see the following items arranged in a row: an orange scrunchiephone charger, a pink pencil, a green booklet, a brown mug, and a purple paperclip. What is the color of the item directly to the right of the scrunchiephone charger?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(R)",
+            "model_response": "To find the color of the item directly to the right of the scrunchiephone charger, let's list the items as they are arranged:\n\n1. Orange scrunchiephone charger\n2. Pink pencil\n3. Green booklet\n4. Brown mug\n5. Purple paperclip\n\nThe item directly to the right of the orange scrunchiephone charger is the pink pencil.\n\nThe answer is: (B).",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is a brown pair of sunglasses, a green jug, a purple textbook, a black booklet, a yellow envelope, and a red notebook. How many things are neither black nor green?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+            "ground_truth": "(E)",
+            "model_response": "To find out how many things are neither black nor green, let's list the items and identify which ones fit those criteria:\n\n- Brown pair of sunglasses\n- Green jug\n- Purple textbook\n- Black booklet\n- Yellow envelope\n- Red notebook\n\nNow, we exclude the black and green items:\n\n- Black booklet (excluded)\n- Green jug (excluded)\n\nThis leaves us with:\n\n- Brown pair of sunglasses\n- Purple textbook\n- Yellow envelope\n- Red notebook\n\nThere are four items that are neither black nor green.\n\nThe answer is: (E).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see the following items arranged in a row: a green plate, a fuchsia teddy bear, a brown scrunchiephone charger, a gold crayon, a burgundy necklace, and a turquoise sheet of paper. What is the color of the item furthest from the turquoise item?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(D)",
+            "model_response": "To find the color of the item furthest from the turquoise sheet of paper, let's first identify its position. The items are arranged as follows:\n\n1. Green plate\n2. Fuchsia teddy bear\n3. Brown scrunchiephone charger\n4. Gold crayon\n5. Burgundy necklace\n6. Turquoise sheet of paper\n\nThe item furthest from the turquoise sheet of paper would either be the first or the last item in the sequence, depending on which direction we measure from the turquoise item.\n\n- If we start from the turquoise sheet of paper and move towards the beginning of the list, the first item (green plate) is furthest.\n- If we start from the turquoise sheet of paper and move towards the end of the list, the last item (gold crayon) is furthest.\n\nGiven the options, both the green plate and the gold crayon are listed among the choices. However, since the question asks for the color, and both options are correct based on their position relative to the turquoise item, the question seems to lack clarity in selecting a single answer based on the provided options alone. \n\nAssuming the intent was to choose one answer that fits within the context provided, we can interpret that the question might be asking for the color of the item that is immediately before the turquoise item, which would be \"brown\" as the brown scrunchiephone charger is the last item before the turquoise sheet of paper.\n\nThe answer is: (F) brown.",
+            "is_correct": false
+        },
+        {
+            "question": "On the nightstand, you see three burgundy pencils, three magenta pencils, and three magenta jugs. If I remove all the jugs from the nightstand, how many fuchsia things remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(A)",
+            "model_response": "To find out how many fuchsia things remain on the nightstand after removing all the jugs, let's break down the steps:\n\n1. **Identify the initial items**: We have three burgundy pencils and three magenta pencils.\n2. **Determine the removal**: We remove all the magenta jugs from the scenario.\n3. **Count the remaining items**: Since there were no fuchsia items mentioned, and only burgundy and magenta pencils were present, removing the magenta jugs leaves us with only the burgundy pencils and the magenta pencils.\n\nGiven that there are three of each (burgundy pencils and magenta pencils), the total number of items remains six, but since the question seems to imply looking for \"fuchsia things\" which were not listed or present, the answer should focus on the items that remained after the removal of the jugs.\n\nTherefore, the correct answer is:\n\n**The answer is: (G) six**.",
+            "is_correct": false
+        },
+        {
+            "question": "On the floor, you see a set of things arranged in a row: a grey cup, a pink notebook, a silver booklet, a burgundy pencil, a magenta teddy bear, and a turquoise pen. What is the color of the left-most thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(P)",
+            "model_response": "The answer is: (P).",
+            "is_correct": true
+        },
+        {
+            "question": "On the floor, I see three mauve cat toys, three mauve stress balls, two mauve notebooks, three yellow notebooks, one yellow cat toy, one pink cat toy, one yellow stress ball, two pink notebooks, and two pink stress balls. If I remove all the mauve items from the floor, how many notebooks remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(F)",
+            "model_response": "To determine how many notebooks remain on the floor after removing all the mauve items, let's count the mauve and non-mauve notebooks:\n\n- Mauve notebooks: 2\n- Yellow notebooks: 3\n\nSince we're removing all the mauve items, the only notebooks that remain are the ones that were not mauve. In this case, there are 3 yellow notebooks.\n\nTherefore, the answer is: (D) three.",
+            "is_correct": false
+        }
+    ]
+}

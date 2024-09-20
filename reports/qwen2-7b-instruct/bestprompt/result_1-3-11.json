@@ -1,0 +1,35 @@
+{
+    "accuracy": 0.8,
+    "result": [
+        {
+            "question": "On the table, you see the following objects arranged in a row: a gold pencil, a red jug, a grey bracelet, and a mauve dog leash. What is the color of the object directly to the left of the bracelet?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(A)",
+            "model_response": "To find the color of the object directly to the left of the grey bracelet, let's list the objects as they are arranged:\n\n1. Gold pencil\n2. Red jug\n3. Grey bracelet\n4. Mauve dog leash\n\nFrom this list, the object directly to the left of the grey bracelet is the red jug.\n\nThe answer is: (A) red.",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, there is one black mug, three black puzzles, one pink keychain, three mauve keychains, three pink puzzles, two black dog leashes, one black keychain, three mauve mugs, and one mauve puzzle. If I remove all the dog leashes from the table, how many mauve things remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(H)",
+            "model_response": "To determine how many mauve items remain on the table after removing all the dog leashes, let's break down the information:\n\n- There are three mauve keychains.\n- There are three mauve mugs.\n- There are three mauve puzzles.\n\nSince we're removing all the dog leashes from the table, this action does not affect the count of mauve items because none of the listed mauve items are dog leashes.\n\nThus, the total number of mauve items on the table initially is \\(3 + 3 + 3 = 9\\).\n\nAfter removing all the dog leashes, the number of mauve items remains unchanged at 9.\n\nHowever, given the options provided, and understanding that the question seems to be asking for the count of mauve items specifically mentioned as remaining after the removal, the correct interpretation based on the options would be:\n\nThe answer is: (D) three, assuming a misinterpretation in the explanation where it was initially stated the total is 9 but considering the options given and the context of the question focusing on mauve items, the closest match to the items specifically mentioned as mauve is option (D), indicating the count of specific mauve items (keychains, mugs, puzzles) that were not removed, potentially leading to confusion in the original explanation.\n\nThe answer should clarify that while the total of mauve items was calculated as 9, given the options and the focus on mauve items specifically, the intended response aligns with understanding the question asked for the count of distinct mauve items mentioned, which could indeed be 3 (keychains) if considering the direct relevance to the mauve items listed in the question. However, based on the structure of the options and aiming for a clear, single-choice answer without introducing additional context or clarification needed, the correct and most straightforward interpretation from the options provided, considering the mauve items explicitly mentioned, would indeed be:\n\nThe answer is: (D) three",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is a fuchsia sheet of paper, a magenta pencil, a teal pair of sunglasses, a black keychain, and a burgundy fidget spinner. What color is the keychain?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(O)",
+            "model_response": "The answer is: (O).",
+            "is_correct": true
+        },
+        {
+            "question": "On the table, I see three teal bracelets and two grey dog leashes. If I remove all the dog leashes from the table, how many teal items remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(D)",
+            "model_response": "The answer is: (D).",
+            "is_correct": true
+        },
+        {
+            "question": "On the desk, you see the following items arranged in a row: a fuchsia sheet of paper, a mauve textbook, and an orange cup. What is the color of the item directly to the left of the cup?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(I)",
+            "model_response": "To find the color of the item directly to the left of the cup, let's examine the arrangement:\n\n1. A fuchsia sheet of paper is first.\n2. Next is a mauve textbook.\n3. Finally, there is an orange cup.\n\nFrom this sequence, it's clear that the mauve textbook is directly to the left of the orange cup. \n\nTherefore, the color of the item directly to the left of the cup is mauve.\n\nThe answer is: (I).",
+            "is_correct": true
+        }
+    ]
+}

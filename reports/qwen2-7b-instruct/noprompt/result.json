@@ -1,0 +1,35 @@
+{
+    "accuracy": 0.0,
+    "result": [
+        {
+            "question": "On the table, you see the following objects arranged in a row: a gold pencil, a red jug, a grey bracelet, and a mauve dog leash. What is the color of the object directly to the left of the bracelet?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(A)",
+            "model_response": "Given the sequence of objects as gold pencil, red jug, grey bracelet, and mauve dog leash, we can deduce that the grey bracelet is the third object from the left. Therefore, the object directly to the left of the bracelet would be the red jug.\n\nThe correct answer is:\n\n(A) red",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is one black mug, three black puzzles, one pink keychain, three mauve keychains, three pink puzzles, two black dog leashes, one black keychain, three mauve mugs, and one mauve puzzle. If I remove all the dog leashes from the table, how many mauve things remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(H)",
+            "model_response": "To find out how many mauve items remain after removing all the dog leashes, we need to count only the mauve items that are left on the table.\n\nGiven items:\n- One black mug\n- Three black puzzles\n- One pink keychain\n- Three mauve keychains\n- Three pink puzzles\n- Two black dog leashes (to be removed)\n- One black keychain\n- Three mauve mugs\n- One mauve puzzle\n\nAfter removing all the dog leashes, we are left with:\n- Three mauve keychains\n- Three mauve mugs\n- One mauve puzzle\n\nSo, there are 3 + 3 + 1 = 7 mauve items remaining on the table.\n\nThe correct answer is (H) seven.",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, there is a fuchsia sheet of paper, a magenta pencil, a teal pair of sunglasses, a black keychain, and a burgundy fidget spinner. What color is the keychain?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(O)",
+            "model_response": "The keychain is (O) black.",
+            "is_correct": false
+        },
+        {
+            "question": "On the table, I see three teal bracelets and two grey dog leashes. If I remove all the dog leashes from the table, how many teal items remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+            "ground_truth": "(D)",
+            "model_response": "The answer is (C) two. After removing all the dog leashes, there would be three teal bracelets remaining on the table.",
+            "is_correct": false
+        },
+        {
+            "question": "On the desk, you see the following items arranged in a row: a fuchsia sheet of paper, a mauve textbook, and an orange cup. What is the color of the item directly to the left of the cup?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+            "ground_truth": "(I)",
+            "model_response": "The description provided states that there are three items on the desk: a fuchsia sheet of paper, a mauve textbook, and an orange cup. To determine the color of the item directly to the left of the cup, we need to arrange these items in sequence based on their colors.\n\nSince the orange cup is one of the items mentioned, it must be placed somewhere in the sequence. The fuchsia sheet of paper and the mauve textbook cannot be next to each other because they have different colors, and there's no mention of any other items between them. Therefore, the sequence could be:\n\n1. Fuchsia (sheet of paper)\n2. Mauve (textbook)\n3. Orange (cup)\n\nIn this arrangement, the item directly to the left of the orange cup would be the mauve textbook.\n\nSo, the correct answer is:\n\n(I) mauve",
+            "is_correct": false
+        }
+    ]
+}

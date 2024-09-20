@@ -2,7 +2,6 @@
 OpenAI is blocked in the China mainland, so I choose the Alibaba models which are compatible with
  the OpenAI API for the task.
 
-
 .env files contains:
 HF_ENDPOINT=https://hf-mirror.com
 DASHSCOPE_API_KEY=sk-xxxxxxxxx
@@ -21,6 +20,7 @@ import sys
 import datasets
 import openai
 from datasets import tqdm, get_dataset_config_names
+
 
 def get_prompt_template():
     print("Enter a prompt:")
@@ -73,16 +73,21 @@ def evaluate(response, target):
 
     return response_label == target_label
 
+
 async def main(args):
     ds = datasets.load_from_disk("D:/huggingface/lukaemon/bbh")
+
     subset = ds["test"].shuffle(seed=args.seed).select(range(args.limit))
     print(ds)
 
+    prompt_template = get_prompt_template()
+    semaphore = asyncio.Semaphore(args.concurrency)
+
     async def process_example(example):
-        async with asyncio.Semaphore(args.concurrency):
+        async with semaphore:
             input_ = example["input"]
             target = example["target"]
-            response = await get_llm_response_async(input_, get_prompt_template(), args.model)
+            response = await get_llm_response_async(input_, prompt_template, args.model)
             is_correct = evaluate(response, target)
             result = {
                 'question': input_,
@@ -116,10 +121,15 @@ async def main(args):
 
 # TODO: calculate accuracy
 # TODO: implement any other metric that you think might be useful
+"""
+error rate = 1- accuracy, it can be used, it is a Mutually exclusive event;
+For Precision/Recall/Sensitive, True Positive, True Negative, False Positive, False Negative should be distinguished
+But in this case (TP=FP;TN=FN), Precision(TP/(TP+FP)), Recall(TP/(TP+FN)) and Sensitive (TP/P) does not make sense.
+"""
 
 if __name__ == "__main__":
     args = argparse.ArgumentParser()
-    args.add_argument("--limit", type=int, default=1)
+    args.add_argument("--limit", type=int, default=5)
     # qwen1.5-1.8b-chat qwen2-0.5b-instruct qwen2-1.5b-instruct qwen2-7b-instruct qwen2-72b-instruct qwen-turbo-0624
     # qwen-plus-0723
     args.add_argument("--model", type=str, default="qwen2-7b-instruct")
